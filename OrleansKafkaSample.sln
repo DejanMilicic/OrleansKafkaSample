@@ -9,8 +9,6 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "OKGrains", "OKGrains\OKGrai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OKCodeGen", "OKCodeGen\OKCodeGen.csproj", "{3D988FC1-B055-4A2D-B99A-4CA1F00BC402}"
 EndProject
-Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FsOrleansKafka", "FsOrleansKafka\FsOrleansKafka.fsproj", "{2A262516-451A-4CD0-9F52-D4797FDD4DAF}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DCEE7557-1178-4EF5-BDEB-EB18579F678B}"
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
@@ -34,10 +32,6 @@ Global
 		{3D988FC1-B055-4A2D-B99A-4CA1F00BC402}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D988FC1-B055-4A2D-B99A-4CA1F00BC402}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D988FC1-B055-4A2D-B99A-4CA1F00BC402}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2A262516-451A-4CD0-9F52-D4797FDD4DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A262516-451A-4CD0-9F52-D4797FDD4DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A262516-451A-4CD0-9F52-D4797FDD4DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A262516-451A-4CD0-9F52-D4797FDD4DAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

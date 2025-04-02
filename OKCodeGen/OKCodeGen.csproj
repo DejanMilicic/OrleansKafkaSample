@@ -17,7 +17,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\FsOrleansKafka\FsOrleansKafka.fsproj" />
 	  <ProjectReference Include="..\OKGrains\OKGrains.fsproj" />
 	</ItemGroup>
 

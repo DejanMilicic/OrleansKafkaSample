@@ -6,9 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Grains.fs" />
-    <Compile Include="DataStream.fs" />
-    <Compile Include="KafkaProcessing.fs" />
+    <Compile Include="HelloGrain.fs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,10 +14,6 @@
     <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="8.1.0" />
     <PackageReference Include="Orleans.Clustering.Redis" Version="7.0.0" />
     <PackageReference Include="Orleans.Persistence.Redis" Version="7.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\FsOrleansKafka\FsOrleansKafka.fsproj" />
   </ItemGroup>
 
   <ItemGroup>
