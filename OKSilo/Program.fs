@@ -1,31 +1,10 @@
 namespace OKSilo
 
-open System
 open Microsoft.Extensions.Hosting
 open Microsoft.Extensions.DependencyInjection
 open Orleans
 open Orleans.Hosting
-open Orleans.Configuration
 open OKGrains
-
-///assembly attributes needed for Orleans to work in F#
-module Load =
-
-    [<assembly: Orleans.ApplicationPartAttribute("OKCodeGen")>]
-    [<assembly: Orleans.ApplicationPartAttribute("Orleans.Core.Abstractions")>]
-    [<assembly: Orleans.ApplicationPartAttribute("Orleans.Serialization")>]
-    [<assembly: Orleans.ApplicationPartAttribute("Orleans.Core")>]
-    [<assembly: Orleans.ApplicationPartAttribute("Orleans.Persistence.Memory")>]
-    [<assembly: Orleans.ApplicationPartAttribute("Orleans.Runtime")>]
-    [<assembly: Orleans.ApplicationPartAttribute("Orleans.Reminders")>]
-    [<assembly: Orleans.ApplicationPartAttribute("OrleansDashboard.Core")>]
-    [<assembly: Orleans.ApplicationPartAttribute("OrleansDashboard")>]
-    [<assembly: Orleans.ApplicationPartAttribute("Orleans.Clustering.Redis")>]
-    [<assembly: Orleans.ApplicationPartAttribute("Orleans.Persistence.Redis")>]
-    [<assembly: Orleans.ApplicationPartAttribute("Orleans.Streaming")>]
-    [<assembly: Orleans.ApplicationPartAttribute("Orleans.Serialization.Abstractions")>]
-    [<assembly: Orleans.ApplicationPartAttribute("Orleans.Serialization")>]
-    ()        
 
 module Program =
     [<EntryPoint>]
