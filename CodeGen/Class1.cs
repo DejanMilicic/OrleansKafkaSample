@@ -1,2 +1,2 @@
-﻿//Orleans generates C# code for serialization so need a C# project to compile the generated code
+﻿// Orleans generates C# code for serialization so need a C# project to compile the generated code
 [assembly: GenerateCodeForDeclaringAssembly(typeof(Grains.HelloGrain))]
