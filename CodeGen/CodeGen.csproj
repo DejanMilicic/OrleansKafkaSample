@@ -17,7 +17,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\OKGrains\OKGrains.fsproj" />
+	  <ProjectReference Include="..\Grains\Grains.fsproj" />
 	</ItemGroup>
 
 </Project>

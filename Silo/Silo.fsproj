@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OKCodeGen\OKCodeGen.csproj" />
+    <ProjectReference Include="..\CodeGen\CodeGen.csproj" />
   </ItemGroup>
 
   <ItemGroup>

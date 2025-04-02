@@ -4,7 +4,7 @@ open Microsoft.Extensions.Hosting
 open Microsoft.Extensions.DependencyInjection
 open Orleans
 open Orleans.Hosting
-open OKGrains
+open Grains
 
 module Program =
     [<EntryPoint>]

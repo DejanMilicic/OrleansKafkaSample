@@ -1,6 +1,8 @@
 ﻿///assembly attributes needed for Orleans to work in F#
 module OrleansFsharpFix
-    [<assembly: Orleans.ApplicationPartAttribute("OKCodeGen")>]
+    
+    [<assembly: Orleans.ApplicationPartAttribute("CodeGen")>]
+
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Core.Abstractions")>]
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Serialization")>]
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Core")>]

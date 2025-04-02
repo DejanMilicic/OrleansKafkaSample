@@ -1,4 +1,4 @@
-﻿namespace OKGrains
+﻿namespace Grains
 
 open System.Threading.Tasks
 open Orleans
