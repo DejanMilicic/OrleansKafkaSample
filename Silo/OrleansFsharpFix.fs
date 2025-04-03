@@ -3,6 +3,8 @@ module OrleansFsharpFix
     
     [<assembly: Orleans.ApplicationPartAttribute("CodeGen")>]
 
+    [<assembly: Orleans.ApplicationPartAttribute("Grains")>]
+
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Core.Abstractions")>]
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Serialization")>]
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Core")>]

@@ -11,7 +11,13 @@
 
   <ItemGroup>
     <PackageReference Include="FSharp.SystemTextJson" Version="1.3.13" />
+    <PackageReference Include="Microsoft.Orleans.Core" Version="9.1.2" />
     <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="9.1.2" />
+    <PackageReference Include="Microsoft.Orleans.Sdk" Version="9.1.2" />
+    <PackageReference Include="Microsoft.Orleans.Serialization.FSharp" Version="9.1.2" />
+    <PackageReference Include="Orleankka" Version="8.0.0" />
+    <PackageReference Include="Orleankka.Fsharp" Version="3.0.0" />
+    <PackageReference Include="Orleankka.Runtime" Version="8.0.0" />
     <PackageReference Include="Orleans.Clustering.Redis" Version="7.0.0" />
     <PackageReference Include="Orleans.Persistence.Redis" Version="7.0.0" />
   </ItemGroup>
