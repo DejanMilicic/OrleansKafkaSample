@@ -27,7 +27,7 @@ module Program =
         let grainFactory = host.Services.GetRequiredService<IGrainFactory>()
 
         task {
-            let friend = grainFactory.GetGrain<IHelloGrain>("abc")
+            let friend = grainFactory.GetGrain<IGreetingGrain>("abc")
             let! response = friend.SayHello("Good morning!")
             printfn "\n\n%s\n\n" response
         } |> Async.AwaitTask |> ignore
