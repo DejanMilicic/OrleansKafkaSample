@@ -2,7 +2,10 @@
 
 open System.Threading.Tasks
 open Orleans
+open System
 
+[<Serializable>]
+[<GenerateSerializer>]
 type GreeterMessage =
     | Greeting of string
     | Number of int
