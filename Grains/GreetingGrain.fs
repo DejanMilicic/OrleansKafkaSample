@@ -2,7 +2,6 @@
 
 open System.Threading.Tasks
 open Orleans
-open System
 
 // following three lines are necessary to make the Orleans codegen work
 // "CodeGen" is the name of the C# codegen project
